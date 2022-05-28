@@ -1,0 +1,33 @@
+Inheritance: Accuring the properties from parent class to the child class
+
+ 
+public class student {
+
+
+}
+
+public class SmartStudent : student {
+
+}
+
+Encapsulation : the method and property working on the same data should be in same class
+
+Polymorphism : it means manyb forms it occurs when we have many classes that are related to each other by inheritance.
+
+public class run {
+
+public void speed(){
+
+console.writeline("Fast");
+}
+}
+
+public class walk : run  {
+
+public void speed(){
+
+console.writeline("slow");
+}
+}
+
+Abstraction: Hidding the unnesory details and only showing the esential features 
